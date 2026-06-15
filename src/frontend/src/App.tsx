@@ -12,8 +12,8 @@ export default function App() {
 
       <header className="app-nav-wrap">
         <NavLink to="/" className="brand-block">
-          <p className="brand-overline">Interview Simulator</p>
-          <p className="brand-title">Session Atelier</p>
+          <p className="brand-title">Interview Coach</p>
+          <p className="brand-overline">Enhance yourself</p>
         </NavLink>
 
         <nav className="app-nav" aria-label="Main navigation">
@@ -24,7 +24,7 @@ export default function App() {
             to="/interviews/new"
             className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
           >
-            Configure
+            Start Interview
           </NavLink>
           <NavLink
             to="/interviews/history"
