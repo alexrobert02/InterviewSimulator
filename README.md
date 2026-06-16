@@ -17,8 +17,6 @@ The project is orchestrated with .NET Aspire and is composed of a React frontend
 - Generates a final interview report with an overall score, strengths, improvement areas, behavioral feedback, technical feedback, communication feedback, per-question feedback, and coding-round evaluation.
 - Stores interview history so users can revisit past sessions and track improvement.
 
-https://github.com/user-attachments/assets/69205d60-a2a2-46a3-a021-04c94ae4a19e
-
 ## Architecture
 
 ```mermaid
